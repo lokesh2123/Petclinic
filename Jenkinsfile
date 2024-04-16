@@ -26,7 +26,7 @@ pipeline {
         
          stage("Test Cases"){
             steps{
-                sh "mvn test -DskipTests=true"
+                sh "mvn test"
             }
         }
         
