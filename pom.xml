@@ -85,8 +85,7 @@
          <distributionManagement>
            <repository>
              <id>maven-releases</id>
-             <!-- CHANGE HERE by your team Nexus server -->
-             <url>http://13.127.103.248:8081/repository/maven-releases/</url>
+             <url>http://3.110.122.227:8081/repository/maven-releases/</url>
            </repository>
          </distributionManagement>
 
@@ -553,7 +552,7 @@
         </profile>
    </profiles>
 
-    <repositories>
+<repositories>
         <repository>
             <id>repository.spring.milestone</id>
             <name>Spring Milestone Repository</name>
@@ -563,11 +562,8 @@
          <repository>
            <id>maven-releases</id>
            <name>maven-releases</name>
-           <url>http://13.127.103.248:8081/repository/maven-releases/</url>
-         </repository>
+           <url>http://3.110.122.227:8081/repository/maven-releases/</url>
+         </repository>        
+</repositories>
              
-  </repositories>
-         
-         
-         
 </project>
